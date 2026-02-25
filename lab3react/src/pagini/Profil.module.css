@@ -1,0 +1,19 @@
+.container {
+  padding: 20px;
+}
+
+.titlu {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}

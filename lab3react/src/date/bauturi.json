@@ -1,0 +1,32 @@
+[
+  {
+    "id": 8,
+    "titlu": "Coca Cola",
+    "descriere": "500ml",
+    "pret": 20
+  },
+  {
+    "id": 9,
+    "titlu": "Fanta",
+    "descriere": "500ml",
+    "pret": 20
+  },
+  {
+    "id": 10,
+    "titlu": "Sprite",
+    "descriere": "500ml",
+    "pret": 20
+  },
+  {
+    "id": 11,
+    "titlu": "Milkshake Vanilie",
+    "descriere": "400ml",
+    "pret": 30
+  },
+  {
+    "id": 12,
+    "titlu": "Apa Plata",
+    "descriere": "500ml",
+    "pret": 12
+  }
+]

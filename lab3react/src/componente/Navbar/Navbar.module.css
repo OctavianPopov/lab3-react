@@ -1,0 +1,17 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.navbar button {
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}

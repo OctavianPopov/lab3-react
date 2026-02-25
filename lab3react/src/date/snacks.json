@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4,
+    "titlu": "Cartofi prajiti",
+    "descriere": "200g",
+    "pret": 30
+  },
+  {
+    "id": 5,
+    "titlu": "Hot Dog",
+    "descriere": "150g",
+    "pret": 25
+  },
+  {
+    "id": 6,
+    "titlu": "Onion Rings",
+    "descriere": "150g",
+    "pret": 28
+  },
+  {
+    "id": 7,
+    "titlu": "Chicken Wings",
+    "descriere": "6 bucati",
+    "pret": 55
+  }
+]

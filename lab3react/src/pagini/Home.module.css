@@ -1,0 +1,35 @@
+.container {
+  min-height: 100vh;
+  background-color: #1f170f;
+  padding: 20px;
+}
+
+.titlu {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #D9D9D9;
+  padding: 12px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

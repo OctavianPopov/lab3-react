@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titlu": "Burger + French + Cola",
+    "descriere": "300g + 120g + 500ml",
+    "pret": 120
+  },
+  {
+    "id": 2,
+    "titlu": "Crispy Nuggets + Cola",
+    "descriere": "150g + 10g + 500ml",
+    "pret": 60
+  },
+  {
+    "id": 3,
+    "titlu": "Double Burger Menu",
+    "descriere": "400g + 150g + 500ml",
+    "pret": 150
+  }
+]

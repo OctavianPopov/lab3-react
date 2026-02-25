@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+}
+
+.titlu {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sterge {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+
+  cursor: pointer;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.buton {
+  margin-top: 10px;
+  padding: 10px 20px;
+
+  background: green;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}

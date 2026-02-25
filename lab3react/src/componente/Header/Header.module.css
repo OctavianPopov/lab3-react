@@ -1,0 +1,102 @@
+.header {
+  width: 100%;
+  height: 220px;
+
+  background-image: url("../../assets/imagini/header.png");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  text-align: center;
+  color: white;
+}
+
+/* LOGO STÂNGA */
+.left {
+  flex: 1;
+}
+
+.logo {
+  font-family: "FE Planks", sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+/* TEXT CENTRU */
+.center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.textBox {
+  text-align: center;
+}
+
+.titlu {
+  font-family: "FE Planks", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #000000;
+
+  -webkit-text-stroke: 10px white;
+  paint-order: stroke fill;
+
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+}
+
+/* BUTON MENIU DREAPTA */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuButton {
+  background: white;
+  border: none;
+  font-size: 24px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* DRAWER MENIU */
+.drawer {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.drawer button {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 6px 10px;
+  cursor: pointer;
+}
